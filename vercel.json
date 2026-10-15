@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "redirects": [
+    { "source": "/xtreme-flight", "destination": "/", "permanent": false },
+    { "source": "/xtreme-flight/", "destination": "/", "permanent": false },
+    { "source": "/xtreme-flight/:path*", "destination": "/:path*", "permanent": false }
+  ]
+}

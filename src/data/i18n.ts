@@ -1,0 +1,41 @@
+export const copy = {
+  en: {
+    home: "Home",
+    flights: "Flights",
+    bookings: "Bookings",
+    media: "Media",
+    profile: "Profile",
+    book: "Book",
+    ready: "Ready to fly",
+    bookNow: "Book Now",
+    bookFlight: "Book Your Flight",
+    guest: "Continue as Guest",
+    login: "Log In",
+    create: "Create Account",
+    upcoming: "Upcoming flight",
+    packages: "Featured packages",
+    stories: "Customer stories",
+    languageNote: "Navigation and account labels follow your language. Packages, policies, and flight details stay in English so they match the website.",
+  },
+  es: {
+    home: "Inicio",
+    flights: "Vuelos",
+    bookings: "Reservas",
+    media: "Media",
+    profile: "Perfil",
+    book: "Reservar",
+    ready: "Listo para volar",
+    bookNow: "Reservar",
+    bookFlight: "Reserva tu vuelo",
+    guest: "Continuar como invitado",
+    login: "Iniciar sesión",
+    create: "Crear cuenta",
+    upcoming: "Próximo vuelo",
+    packages: "Paquetes destacados",
+    stories: "Historias",
+    languageNote: "La navegación y las etiquetas de la cuenta siguen tu idioma. Los paquetes, las políticas y los detalles del vuelo permanecen en inglés para coincidir con el sitio web.",
+  },
+} as const;
+
+export type Lang = keyof typeof copy;
+export type CopyKey = keyof (typeof copy)["en"];
