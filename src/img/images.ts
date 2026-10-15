@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import logoOnDark from "./logo-g.png";
 import cockpitInterior from "./cockpit-interior.jpg";
 import xa42Flight from "./xa42-flight.jpg";
 import xa42Maintenance from "./xa42-maintenance.jpg";
@@ -28,6 +29,7 @@ import weatherStorm from "./generated/weather-storm.jpg";
 
 export const images = {
   logo,
+  logoOnDark,
   cockpitInterior,
   xa42Flight,
   xa42Maintenance,

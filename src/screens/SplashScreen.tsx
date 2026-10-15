@@ -23,7 +23,7 @@ export function SplashScreen() {
       <div className="speed-lines pointer-events-none absolute inset-0 opacity-80" />
       <div className="pointer-events-none absolute left-1/2 top-1/3 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full bg-lime/15 blur-3xl" />
       <div className="relative">
-        <img src={images.logo} alt="Xtreme Flight" className="splash-logo logo-knockout h-28 w-auto" />
+        <img src={images.logoOnDark} alt="Xtreme Flight" className="splash-logo logo-knockout h-28 w-auto" />
         <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 overflow-hidden">
           <div className="splash-sweep h-full w-full bg-gradient-to-r from-transparent via-white/50 to-transparent" />
         </div>

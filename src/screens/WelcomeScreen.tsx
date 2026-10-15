@@ -17,7 +17,7 @@ export function WelcomeScreen() {
         Back
       </button>
       <div className="relative flex flex-1 flex-col justify-end px-4 pb-[max(16px,env(safe-area-inset-bottom))]">
-        <img src={images.logo} alt="Xtreme Flight" className="logo-knockout mb-4 h-16 w-auto self-start" />
+        <img src={images.logoOnDark} alt="Xtreme Flight" className="logo-knockout mb-4 h-16 w-auto self-start" />
         <h1 className="font-display text-[32px] uppercase leading-9">{HERO}</h1>
         <p className="mt-2 text-[13px] uppercase tracking-[0.16em] text-[#d1d5db]">{TAGLINE}</p>
         <div className="mt-6 space-y-3">

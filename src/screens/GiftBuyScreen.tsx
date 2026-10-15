@@ -126,7 +126,7 @@ export function GiftBuyScreen() {
 export function CertificatePreview({ code, name, from, detail, message }: { code: string; name: string; from: string; detail: string; message: string }) {
   return (
     <article className="overflow-hidden rounded-[18px] border border-lime/40 bg-[#161e16]">
-      <img src={images.logo} alt="Xtreme Flight" className="logo-knockout mx-auto mt-4 h-12 w-auto" />
+      <img src={images.logoOnDark} alt="Xtreme Flight" className="logo-knockout mx-auto mt-4 h-12 w-auto" />
       <div className="p-4 text-center">
         <p className="text-[12px] uppercase tracking-[0.18em] text-lime">Gift of flight</p>
         <p className="mt-2 font-display text-[22px] uppercase">{detail}</p>

@@ -10,7 +10,7 @@ export function AboutScreen() {
     <Screen>
       <Header title="About" />
       <div className="px-4">
-        <img src={images.logo} alt="Xtreme Flight" className="logo-knockout h-16 w-auto" />
+        <img src={images.logoOnDark} alt="Xtreme Flight" className="logo-knockout h-16 w-auto" />
         <h2 className="mt-4 font-display text-[28px] uppercase leading-8">Fly like an Airshow Pilot</h2>
         <p className="mt-3 text-[15px] leading-[22px] text-[#d1d5db]">
           Real aerobatic flight, from mild to Xtreme, for ages 7 and up. The only XA-42 aerobatic experience in the U.S. Gentle to ±10 G flights with a Certified Flight Instructor. Built for thrill seekers, families, gift givers, and events.

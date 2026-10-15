@@ -64,7 +64,7 @@ export function ProfileScreen() {
         <div className="mx-4 rounded-[16px] bg-[#1f2937] p-4">
           <div className="flex items-center gap-4">
             <label className="relative h-[72px] w-[72px] shrink-0 overflow-hidden rounded-full bg-[#273244]">
-              {app.user.avatar ? <img src={app.user.avatar} alt="" className="h-full w-full object-cover" /> : <img src={images.logo} alt="" className="logo-knockout h-full w-full object-contain p-2" />}
+              {app.user.avatar ? <img src={app.user.avatar} alt="" className="h-full w-full object-cover" /> : <img src={images.logoOnDark} alt="" className="logo-knockout h-full w-full object-contain p-2" />}
               <input
                 aria-label="Change profile photo"
                 type="file"

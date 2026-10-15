@@ -318,7 +318,7 @@ export function GuestWall({
     <Screen>
       <Header title={title} />
       <div className="px-4 pt-6 text-center">
-        <img src={images.logo} alt="Xtreme Flight" className="logo-knockout mx-auto h-16 w-auto" />
+        <img src={images.logoOnDark} alt="Xtreme Flight" className="logo-knockout mx-auto h-16 w-auto" />
         <p className="mt-4 text-[15px] leading-[22px] text-[#9ca3af]">{body}</p>
         <div className="mt-6 space-y-3">
           <Button onClick={() => go("/login")}>Log In</Button>
