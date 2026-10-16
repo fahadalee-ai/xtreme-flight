@@ -173,6 +173,11 @@ export function BookingDetailScreen() {
             </Button>
           </div>
         ) : null}
+        <div className="mt-4">
+          <Button variant="outline" onClick={() => go("/home")}>
+            Back to home
+          </Button>
+        </div>
         <a className="mt-4 block text-center text-[13px] text-[#9ca3af]" href={`mailto:${EMAIL}`}>
           {EMAIL}
         </a>

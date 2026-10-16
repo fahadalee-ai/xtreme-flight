@@ -40,7 +40,7 @@ export function OnboardingScreen() {
         Skip
       </button>
       <div className="absolute inset-x-0 bottom-0 z-10 px-4 pb-[max(16px,env(safe-area-inset-bottom))]">
-        <h1 className="font-display text-[32px] uppercase leading-9">{slide.title}</h1>
+        <h1 className="text-[32px] font-bold leading-9 tracking-tight">{slide.title}</h1>
         <p className="mt-3 text-[15px] leading-[22px] text-[#e5e7eb]">{slide.body}</p>
         <div className="mt-5 flex gap-1.5" aria-label="Slide progress">
           {onboardingSlides.map((s, i) => (
